@@ -110,7 +110,7 @@
 }
 
 3.文件的读入和读出
-                 File file=new File("C:\\Users\\10001\\Desktop\\课程信息.txt");
+                 File file=new File("C:\\Users\\10001\\Desktop\\学生信息截图.txt");
 		    try {
 		        FileInputStream in=new FileInputStream(file);
 		        int size=in.available();
@@ -127,7 +127,7 @@
 		s_2.append(students);
 		s_2.append(p);
 		try {
-			FileWriter fw=new FileWriter("C:\\Users\\10001\\Desktop\\test.txt");
+			FileWriter fw=new FileWriter("C:\\Users\\10001\\Desktop\\课程信息截图.txt");
 			fw.write(s_2.toString() + "\n");
 			fw.close();
 		     } 
